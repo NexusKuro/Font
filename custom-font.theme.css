@@ -1,7 +1,11 @@
 {
   "name": "Pixel Font Theme",
-  "author": "NexusKuro",
-  "description": "Applies 04B_30 font",
-  "version": "1.0.0",
-  "css": "@font-face { font-family: 'PixelFont'; src: url('https://raw.githubusercontent.com/NexusKuro/Font/main/04B_30__.TTF') format('truetype'); } * { font-family: 'PixelFont', sans-serif !important; }"
+  "description": "Applies 04B_30 custom font",
+  "authors": [
+    {
+      "name": "NexusKuro"
+    }
+  ],
+  "spec": 2,
+  "main": "https://raw.githubusercontent.com/NexusKuro/Font/main/04B_30__.TTF"
 }
