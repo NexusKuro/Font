@@ -3,9 +3,21 @@
   "description": "Applies 04B_30 custom font",
   "authors": [
     {
-      "name": "NexusKuro"
+      "name": "NexusKuro",
+      "id": "0"
     }
   ],
   "spec": 2,
-  "main": "https://raw.githubusercontent.com/NexusKuro/Font/main/04B_30__.TTF"
+  "semanticColors": {},
+  "rawColors": {},
+  "background": {
+    "blur": 0,
+    "opacity": 1
+  },
+  "styles": {
+    "*": {
+      "font-family": "PixelFont"
+    }
+  },
+  "customCSS": "@font-face { font-family: 'PixelFont'; src: url('https://raw.githubusercontent.com/NexusKuro/Font/main/04B_30__.TTF') format('truetype'); } * { font-family: 'PixelFont', sans-serif !important; }"
 }
