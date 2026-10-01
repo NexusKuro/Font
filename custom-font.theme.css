@@ -1,0 +1,13 @@
+/**
+ * @name Custom Pixel Font
+ * @author NexusKuro
+ * @description Applies 04B_30 font to Discord
+ */
+ @font-face {
+    font-family: 'PixelFont';
+    src: url('https://raw.githubusercontent.com/NexusKuro/Font/main/04B_30__.TTF') format('truetype');
+}
+
+* {
+    font-family: 'PixelFont', sans-serif !important;
+}
